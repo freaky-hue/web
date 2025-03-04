@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/*
+    Variaveis globais utilizadas para componentes especificos
+*/
+
 
 *{
     margin: 0;
@@ -39,5 +43,34 @@ a{
 
 .btn img{
     width: 20px;
-    margin-left: 10px;
+    margin-left: 10px; 
+
+}
+
+.btn-color{
+    background: #212EA0;
+    color: #fff;
+}
+
+.btn:hover{
+    transition: 0.2s;
+    opacity: 85%;
+}
+
+
+.nav-color{
+    background-color: #212AE0;
+    transition: 0.5s;
+}
+
+@media (max-width:1200px){
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .btn{
+        padding: 14px 22px;
+
+    }
+
 }
