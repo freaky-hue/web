@@ -1,3 +1,4 @@
+//imports da pasta de componentes + frameworks
 import Navbar from "./componentes/Navbar/Navbar"
 import Hero from "./componentes/Hero/Hero"
 import Programs from "./componentes/Programs/Programs"
@@ -8,6 +9,7 @@ import Contact from "./componentes/Contact/Contact"
 import React from "react"
 
 
+//Aqui está defenido o 'coração' da página, tudo que é feito depois é importado e aplicado aqui
 function App() {
   return (
     <div>

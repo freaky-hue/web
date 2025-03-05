@@ -6,7 +6,7 @@ import './Navbar.css'
 
 function Navbar(){
 
-    // Apresentar cor na Navbar depois de descer até 500px (equivalente a 100vh) para a navbar não ficar transparente no fundo branco
+    // Apresentar cor na Navbar depois de descer até 500px para a navbar não ficar transparente no fundo branco
     const [sticky, setSticky] = useState(false);
 
     useEffect(()=>{
@@ -15,12 +15,14 @@ function Navbar(){
         })
     },[]);
 
+
+    // Mostrar menu lateral quando a (resolução fica para telemovel, definido no css menu-icon passa de hidden para block) quando clicka
     const [mobileMenu, setMobileMenu] = useState(false);
 
     const toggleMenu = () =>{
         mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
     }
-    
+    //Links são usados como anchor <a> de html  
     return(
         <nav className={`container ${sticky? 'nav-color' :''}`}>
             <img className="logo" src={logo} alt="..." />
