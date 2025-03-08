@@ -12,15 +12,14 @@ function About(){
         </div>
 
         <div className="about-right">
-            <h3>About University</h3>
-            <h2>Nurturing Tomorrow's Leaders Today</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi facere, nihil consequatur iusto possimus esse earum?
-                 Dolor assumenda velit impedit, animi ea odit mollitia nemo laborum eos eaque sunt aliquid.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit neque ratione dolor exercitationem, impedit asperiores dolorem sapiente voluptatibus eaque labore recusandae.
-                 Iste tenetur, suscipit fugiat id voluptates quam dolor laborum?</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Fuga earum incidunt dolores, natus quos magni alias voluptas quam quasi eum dolorum deserunt repudiandae? ~
-                Iste voluptatum illo cumque! Expedita, dolorum eaque?</p>
+            <h3>Sobre nós</h3>
+            <p>O CINEL - Centro de Formação Profissional da Indústria Eletrónica, Energia, Telecomunicações e 
+              Tecnologias da Informação é uma referência na qualificação e requalificação de profissionais para o setor tecnológico.
+               Com mais de três décadas de experiência, oferecemos formação especializada e certificada, preparando talentos para os desafios da Indústria 4.0.</p>
+            <p>A nossa missão é impulsionar o desenvolvimento de competências nas áreas da eletrónica, energia, telecomunicações e TI, alinhando-nos com as exigências do mercado de trabalho.
+               Trabalhamos em estreita colaboração com empresas e entidades do setor, garantindo formação de excelência e oportunidades reais de empregabilidade.</p>
+            <p>No CINEL, acreditamos que o conhecimento transforma carreiras e promove a inovação. Seja para jovens à procura do primeiro emprego, 
+              profissionais que querem evoluir ou empresas que desejam formar as suas equipas, somos o parceiro ideal na construção do futuro tecnológico.</p>
         </div>
 
 

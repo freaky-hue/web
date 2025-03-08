@@ -10,28 +10,29 @@ function Contact(){
   return (
     <div className='contact'>
         <div className="contact-col">
-            <h3>Send Us a Message<img src={msg_icon} alt="..."/></h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos qui sapiente odit vel quisquam placeat praesentium et eveniet nihil. Doloribus quas expedita perspiciatis veniam aliquid, reprehenderit consectetur pariatur quia ipsam.</p>
+            <h3>Envie-nos uma mensagem<img src={msg_icon} alt="..."/></h3>
+            <p>Tem dúvidas ou precisa de mais informações? Estamos aqui para ajudar! Entre em contacto connosco através dos nossos canais de comunicação.</p>
             <ul>
-                <li><img src={mail_icon} alt='...'/> Contact@GreatStack.dev</li>
-                <li><img src={phone_icon} alt='...'/>+1 123-456-789</li>
-                <li><img src={location_icon} alt='...'/>77 Massachusetts Ave <br/>MA 02139, United States</li>
+                <li><img src={mail_icon} alt='...'/> geral.porto@cinel.pt</li>
+                <li><img src={phone_icon} alt='...'/> 22 536 32 10</li>
+                <li><img src={location_icon} alt='...'/> Rua de São Rosendo, 377
+                 <br/>4300-478 Porto</li>
 
             </ul>
         </div>
 
         <div className="contact-col">
             <form action="">
-                <label>Your Name</label>
-                <input type="text" name='name' placeholder='Insert your name' required/>
+                <label>Nome</label>
+                <input type="text" name='name' placeholder='Insira o seu nome' required/>
                 
-                <label>Phone Number*</label>
-                <input type="tel" name='phone' placeholder='Insert your phone number'/>
+                <label>Telemóvel</label>
+                <input type="tel" name='phone' placeholder='Insira o seu número de telemóvel'required/>
             
-                <label>Message</label>
-                <textarea name="message" row="6" placeholder='Insert your message' required/>
+                <label>Messagem</label>
+                <textarea name="message" row="6" placeholder='Insira a sua mensagem' required/>
 
-                <button type='submit' className='btn btn-color'>Submit</button>
+                <button type='submit' className='btn btn-color'>Enviar</button>
 
                 </form>
         </div>

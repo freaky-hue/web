@@ -17,7 +17,7 @@ function Programs(){
 
         <div className="caption">
           <img src={program_icon_1} alt="..." />
-          <p>Graduation degree</p>
+          <p>Formação Modular Certificada</p>
 
         </div>
       </div>
@@ -27,7 +27,7 @@ function Programs(){
         
         <div className="caption">
           <img src={program_icon_2} alt="..." />
-          <p>Master Degree</p>
+          <p>Cursos de Aprendizagem</p>
 
         </div>
       </div>
@@ -37,7 +37,7 @@ function Programs(){
         
         <div className="caption">
           <img src={program_icon_3} alt="..." />
-          <p>Post Graduation</p>
+          <p>Formação à Medida/Específica</p>
 
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Gallery.css'
+import {Link} from 'react-scroll'
 import gallery_1 from '../../assets/gallery-1.png'
 import gallery_2 from '../../assets/gallery-2.png'
 import gallery_3 from '../../assets/gallery-3.png'
@@ -17,7 +18,9 @@ function Gallery(){
             <img src={gallery_3} alt="..."/>
             <img src={gallery_4} alt="..."/>
         </div>
-        <button className='btn btn-color'>See more here <img src={white_arrow} alt="..."></img></button>
+        <Link href='https://www.cinel.pt/appv2/Galeria/Fotos'>
+          <button className='btn btn-color'>Veja mais aqui <img src={white_arrow} alt="..."></img></button>
+        </Link>
     </div>
   )
 }

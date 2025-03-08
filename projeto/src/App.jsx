@@ -16,12 +16,12 @@ function App() {
       <Navbar/>
       <Hero/>
       <div className="container">
-        <Title subTitle = "OUR PROGRAM" title="What We Have to Offer"/>
+        <Title subTitle = "Os nossos Programas" title="O que temos a oferecer"/>
         <Programs/>
         <About/>
-        <Title subTitle = "Gallery" title="Campus Photos"/>
+        <Title subTitle = "Galeria" title="Fotos do Cinel"/>
         <Gallery/>
-        <Title subTitle="Contact US" title="Get in Touch"/>
+        <Title subTitle="Contacta-nos" title="Entre em contacto"/>
         <Contact/>
       </div>
     </div>
