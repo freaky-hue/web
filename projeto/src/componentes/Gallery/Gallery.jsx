@@ -18,7 +18,7 @@ function Gallery(){
             <img src={gallery_4} alt="..."/>
         </div>
         <a href='https://www.cinel.pt/appv2/Galeria/Fotos' target='__blank'>
-          <button className='btn btn-color'>Veja mais aqui <img src={white_arrow} alt="..."></img></button>
+          <button className='btn btn-color'>Ver mais <img src={white_arrow} alt="..."></img></button>
         </a>
     </div>
   )
