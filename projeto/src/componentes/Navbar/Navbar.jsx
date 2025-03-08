@@ -28,7 +28,7 @@ function Navbar(){
             <img className="logo" src={logo} alt="..." />
             <ul className={mobileMenu?'':'hide-mobile-menu'}>
                 <li><Link to='hero' smooth={true} offset={0} duration={500}>Início</Link></li>
-                <li><Link to='program' smooth={true} offset={-260} duration={500}>Programa</Link></li>
+                <li><Link to='program' smooth={true} offset={-260} duration={500}>Programas</Link></li>
                 <li><Link to='about' smooth={true} offset={-150} duration={500}>Sobre nós</Link></li>
                 <li><Link to='gallery' smooth={true} offset={-260} duration={500}>Galeria</Link></li>
                 <li><Link to='contact' smooth={true} offset={-260} duration={500}>Contactos</Link></li>
