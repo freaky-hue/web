@@ -10,9 +10,9 @@ function Hero(){
                 <h1>Garantimos uma educação melhor para um mundo melhor.</h1>
                 <p>O nosso currículo inovador foi projetado para capacitar os alunos com o conhecimento, as competências
                      e as experiências necessárias para se destacarem no dinâmico campo da educação.</p>
-                     <Link href="https://www.cinel.pt/appv2/">
+                     <a href="https://www.cinel.pt/appv2/" target="__bank">
                         <button className="btn">Explorar <img src={dark_arrow} alt="..."/></button>
-                     </Link>
+                     </a>
             </div>
         </div>
     );

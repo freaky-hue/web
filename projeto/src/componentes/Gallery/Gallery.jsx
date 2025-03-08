@@ -18,9 +18,9 @@ function Gallery(){
             <img src={gallery_3} alt="..."/>
             <img src={gallery_4} alt="..."/>
         </div>
-        <Link href='https://www.cinel.pt/appv2/Galeria/Fotos'>
+        <a href='https://www.cinel.pt/appv2/Galeria/Fotos' target='__blank'>
           <button className='btn btn-color'>Veja mais aqui <img src={white_arrow} alt="..."></img></button>
-        </Link>
+        </a>
     </div>
   )
 }
