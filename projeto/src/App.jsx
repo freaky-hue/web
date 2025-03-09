@@ -21,7 +21,7 @@ function App() {
         <Title subTitle = "Os nossos Programas" title="O que temos a oferecer"/>
         <Programs/>
         <About/>
-        <Title subTitle="Testemunhos"/>
+        <Title title="Testemunhos"/>
         <Testemonials/>
         <Title subTitle = "Galeria" title="Fotos do Cinel"/>
         <Gallery/>
