@@ -22,11 +22,13 @@ a{
     cursor: pointer;
 }
 
+
 .container{
     padding-left: 10%;
     padding-right: 10%;
 }
 
+/* Botões */
 .btn{
     background: #FFF;
     color: #212121;
@@ -63,6 +65,7 @@ a{
     transition: 0.5s;
 }
 
+/* Para Resoluções abaixo de 1201 */
 @media (max-width:1200px){
     .container{
         padding-left: 5%;
