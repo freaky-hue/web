@@ -14,33 +14,28 @@ function Programs(){
     <div className='programs'>
       <div className="program">
         <img src={program_1} alt="..." />
-
         <div className="caption">
           <img src={program_icon_1} alt="..." />
           <p>Formação Modular Certificada</p>
-
         </div>
       </div>
 
       <div className="program">
         <img src={program_2} alt="..."/>
-        
         <div className="caption">
           <img src={program_icon_2} alt="..." />
           <p>Cursos de Aprendizagem</p>
-
         </div>
       </div>
 
       <div className="program">
         <img src={program_3} alt="..." />
-        
         <div className="caption">
           <img src={program_icon_3} alt="..." />
           <p>Formação à Medida/Específica</p>
-
         </div>
       </div>
+
     </div>
   )
 }

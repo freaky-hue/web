@@ -5,6 +5,7 @@ import React from 'react'
 
 function About(){
   return (
+    //About é dividido em duas partes: A parte da imagem e a parte do titulo e do texto
     <div className='about'>
         <div className="about-left">
             <img className='about-img' src={about_img} alt='...'/>
